@@ -34,3 +34,53 @@
     position: relative;
     z-index: 3;
 }
+#experience-timeline {
+    width: 90%;  /* Increased from default */
+    max-width: 1400px;  /* Added maximum width */
+    margin: 0 auto;
+    position: relative;
+}
+
+#experience-timeline > div {
+    width: 100%;
+    padding: 20px 30px;
+    margin: 0 auto 100px auto;  /* Increased from 30px to 50px */
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  /* Optional: adds subtle depth */
+}
+
+/* Add more space after the last block */
+#experience-timeline > div:last-child {
+    margin-bottom: 60px;
+}
+
+#experience .tech-stack {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#experience ul {
+    width: 95%;  /* Give some space on the right */
+    margin: 0 auto;  /* Center the list */
+}
+
+.tech-stack {
+    color: #74808a;
+    margin: 5px 0 15px;
+    font-size: 0.9em;
+}
+
+.tech-items {
+    color: #3498db;
+    font-weight: normal;
+}
+
+ul ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ul ul li {
+    margin-left: 20px;
+}
